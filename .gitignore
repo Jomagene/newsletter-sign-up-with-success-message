@@ -1,0 +1,6 @@
+*.sketch
+*.xd
+*.fig
+.DS_Store
+/figma/
+*.css.map
