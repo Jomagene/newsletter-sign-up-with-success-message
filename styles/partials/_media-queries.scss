@@ -1,0 +1,26 @@
+@use "./colors" as *;
+@use "./mixinis" as *;
+@use "./variables" as *;
+
+body {
+  background-color: $charcoal-grey;
+  @include font-mobile("body", $font-w-400);
+  h1 {
+    @include font-mobile("heading", $font-w-700);
+  }
+  label,
+  button {
+    font-weight: $font-w-700;
+  }
+  label {
+    font-size: $font-body-small;
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  body {
+    h1 {
+      @include font-desktop("heading", $font-w-700);
+    }
+  }
+}

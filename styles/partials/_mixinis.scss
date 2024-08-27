@@ -1,0 +1,17 @@
+@use "./variables" as *;
+
+@mixin font-mobile($tag, $weight) {
+  @if ($tag == "body") {
+    font-size: $font-body;
+    line-height: 1.5;
+    font-weight: $weight;
+  } @else if ($tag == "heading") {
+    font-size: $font-heading-mobile;
+    line-height: 1;
+    font-weight: $weight;
+  }
+}
+@mixin font-desktop($tag, $weight) {
+  font-size: $font-heading-desktop;
+  font-weight: $weight;
+}
