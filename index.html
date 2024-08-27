@@ -9,7 +9,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png" />
 
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
     <script src="./scripts/script.js" defer></script>
 
     <title>
@@ -26,7 +26,7 @@
           src="./assets/images/illustration-sign-up-mobile.svg"
           alt="Sign up illustration on mobile" />
       </figure>
-      <div>
+      <div class="text-container">
         <section>
           <h1>Stay updated!</h1>
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -37,12 +37,14 @@
           </ul>
         </section>
         <form>
-          <label for="myMail">Email address</label>
-          <input
-            type="email"
-            name="myMail"
-            id="myMail"
-            placeholder="email@company.com" />
+          <fieldset>
+            <label for="myMail">Email address</label>
+            <input
+              type="email"
+              name="myMail"
+              id="myMail"
+              placeholder="email@company.com" />
+          </fieldset>
           <button type="submit">Subscribe to monthly newsletter</button>
         </form>
       </div>

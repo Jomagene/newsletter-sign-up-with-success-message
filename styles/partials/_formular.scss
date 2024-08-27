@@ -1,0 +1,147 @@
+@use "./colors" as *;
+@use "./mixinis" as *;
+@use "./variables" as *;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $charcoal-grey;
+  color: $dark-slate-grey;
+  min-height: min-content;
+
+  @include font-mobile("body", $font-w-400);
+  h1 {
+    @include font-mobile("heading", $font-w-700);
+  }
+
+  figure {
+    overflow: hidden;
+  }
+  label,
+  button {
+    font-weight: $font-w-700;
+  }
+  label {
+    font-size: $font-body-small;
+    padding-bottom: $margin-8;
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: $gap-10;
+  }
+  ul li {
+    position: relative; /* Ensure relative positioning */
+    padding-left: $margin-40;
+  }
+  ul li::before {
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url("../../assets/images/icon-list.svg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+  input {
+    padding: 0.9375rem;
+    border: 1px solid $grey;
+    color: $grey;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+  button {
+    color: $white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 100%;
+  }
+  button {
+    text-align: center;
+    background-color: $dark-slate-grey;
+  }
+}
+
+main {
+  display: flex;
+  background-color: $white;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 0;
+
+  figure {
+    flex: 50;
+  }
+  figure img {
+    object-fit: cover;
+    object-position: right;
+    height: 100%;
+    width: 100%;
+  }
+
+  figure img:first-child {
+    display: none;
+  }
+  figure img:last-child {
+    display: block;
+  }
+
+  .text-container {
+    margin: $margin-40 $margin-24;
+    display: flex;
+    flex-direction: column;
+    gap: $gap-40;
+    flex: 47;
+
+    section {
+      display: flex;
+      flex-direction: column;
+      gap: $gap-24;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: $gap-24;
+    }
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  body {
+    min-height: 1080px;
+
+    h1 {
+      @include font-desktop("heading", $font-w-700);
+    }
+  }
+  main {
+    max-width: $max-width-desktop;
+    flex-direction: row;
+    padding: $margin-24;
+    border-radius: 2.25rem;
+
+    figure {
+      min-height: 37.0625rem;
+      img:first-child {
+        display: block;
+      }
+      img:last-child {
+        display: none;
+      }
+    }
+
+    .text-container {
+      margin: auto $margin-64;
+      order: -1;
+    }
+  }
+}

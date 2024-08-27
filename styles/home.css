@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg {
+  display: block;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+fieldset {
+  border: none;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(235, 18%, 26%);
+  color: hsl(234, 29%, 20%);
+  min-height: -moz-min-content;
+  min-height: min-content;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+body h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+body figure {
+  overflow: hidden;
+}
+body label,
+body button {
+  font-weight: 700;
+}
+body label {
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+  display: block;
+}
+body ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 0.625rem;
+}
+body ul li {
+  position: relative; /* Ensure relative positioning */
+  padding-left: 2.5rem;
+}
+body ul li::before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-image: url("../../assets/images/icon-list.svg");
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+body input {
+  padding: 0.9375rem;
+  border: 1px solid hsl(231, 7%, 60%);
+  color: hsl(231, 7%, 60%);
+  border-radius: 0.5rem;
+  width: 100%;
+}
+body button {
+  color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  width: 100%;
+}
+body button {
+  text-align: center;
+  background-color: hsl(234, 29%, 20%);
+}
+
+main {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  flex-direction: column;
+  border-radius: 0;
+}
+main figure {
+  flex: 50;
+}
+main figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+  height: 100%;
+  width: 100%;
+}
+main figure img:first-child {
+  display: none;
+}
+main figure img:last-child {
+  display: block;
+}
+main .text-container {
+  margin: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  flex: 47;
+}
+main .text-container section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main .text-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 56rem) {
+  body {
+    min-height: 1080px;
+  }
+  body h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  main {
+    max-width: 58rem;
+    flex-direction: row;
+    padding: 1.5rem;
+    border-radius: 2.25rem;
+  }
+  main figure {
+    min-height: 37.0625rem;
+  }
+  main figure img:first-child {
+    display: block;
+  }
+  main figure img:last-child {
+    display: none;
+  }
+  main .text-container {
+    margin: auto 4rem;
+    order: -1;
+  }
+}/*# sourceMappingURL=home.css.map */

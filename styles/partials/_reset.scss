@@ -14,7 +14,6 @@ body {
 img,
 svg {
   display: block;
-  max-width: 100%;
 }
 
 input,
@@ -26,6 +25,10 @@ p,
 h1,
 h2 {
   overflow-wrap: break-word;
+}
+
+fieldset {
+  border: none;
 }
 
 #root,
