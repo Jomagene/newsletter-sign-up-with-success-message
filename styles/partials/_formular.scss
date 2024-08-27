@@ -36,7 +36,7 @@ body {
   }
   ul li {
     position: relative; /* Ensure relative positioning */
-    padding-left: $margin-40;
+    padding-left: 38px;
   }
   ul li::before {
     content: "";
@@ -47,12 +47,12 @@ body {
     background-size: cover;
     position: absolute;
     left: 0;
-    margin-right: 1rem;
+    // margin-right: 1rem;
     vertical-align: middle;
   }
   input {
     padding: 0.9375rem;
-    border: 1px solid $grey;
+    border: 1px solid $grey-light;
     color: $grey;
     border-radius: 0.5rem;
     width: 100%;
@@ -140,7 +140,7 @@ main {
     }
 
     .text-container {
-      margin: auto $margin-64;
+      margin: auto 62px auto 42px;
       order: -1;
     }
   }
