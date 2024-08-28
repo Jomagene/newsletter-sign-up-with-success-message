@@ -18,6 +18,12 @@ body {
   figure {
     overflow: hidden;
   }
+
+  .success-img {
+    height: 4rem;
+    align-self: flex-start;
+  }
+
   label,
   button {
     font-weight: $font-w-700;
@@ -115,6 +121,12 @@ main {
     }
   }
 }
+.success-main-container {
+  padding-top: 8.5rem;
+  p {
+    padding-bottom: 16.4375rem;
+  }
+}
 
 @media (min-width: $desktop-min-width) {
   body {
@@ -144,5 +156,9 @@ main {
       margin: auto $margin-62 auto $margin-42;
       order: -1;
     }
+  }
+  .success-main-container {
+    max-width: 31.5rem;
+    padding: 3rem 0.75rem 4rem;
   }
 }

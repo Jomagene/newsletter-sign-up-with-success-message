@@ -64,6 +64,10 @@ body h1 {
 body figure {
   overflow: hidden;
 }
+body .success-img {
+  height: 4rem;
+  align-self: flex-start;
+}
 body label,
 body button {
   font-weight: 700;
@@ -155,6 +159,13 @@ main .text-container form {
   gap: 1.5rem;
 }
 
+.success-main-container {
+  padding-top: 8.5rem;
+}
+.success-main-container p {
+  padding-bottom: 16.4375rem;
+}
+
 @media (min-width: 56rem) {
   body {
     min-height: 67.5rem;
@@ -181,5 +192,9 @@ main .text-container form {
   main .text-container {
     margin: auto 3.875rem auto 2.625rem;
     order: -1;
+  }
+  .success-main-container {
+    max-width: 31.5rem;
+    padding: 3rem 0.75rem 4rem;
   }
 }/*# sourceMappingURL=home.css.map */
