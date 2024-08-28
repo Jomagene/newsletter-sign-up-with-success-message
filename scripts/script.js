@@ -1,16 +1,15 @@
 const myForm = document.getElementById("my-form");
 let formInput = document.querySelector("input[name='myMail']");
-let labelInput = document.querySelector("input");
 let errorContainer = document.getElementById("error");
 
 function validateEmail() {
   const email = new FormData(myForm).get("myMail");
   console.log(email);
-  if (!email) return "Valid Email required";
+  if (!email) return "Enter a non empty email";
 
   const isValidEmail = /^\S+@\S+$/g;
   if (!isValidEmail.test(email)) {
-    return "Please enter a valid email";
+    return "Valid Email required";
   }
 
   return "";

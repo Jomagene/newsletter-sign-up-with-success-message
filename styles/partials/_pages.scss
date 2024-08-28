@@ -64,6 +64,18 @@ body {
     border-radius: 0.5rem;
     width: $max;
   }
+
+  .fail {
+    color: $tomato;
+  }
+
+  input.fail {
+    background-color: $tomato-lighten;
+    border: 1px solid $tomato;
+    &:focus {
+      border-color: $tomato;
+    }
+  }
   button {
     color: $white;
     padding: 1rem;

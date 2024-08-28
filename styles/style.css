@@ -107,6 +107,16 @@ body input {
   border-radius: 0.5rem;
   width: 100%;
 }
+body .fail {
+  color: hsl(4, 100%, 67%);
+}
+body input.fail {
+  background-color: hsl(4, 100%, 94%);
+  border: 1px solid hsl(4, 100%, 67%);
+}
+body input.fail:focus {
+  border-color: hsl(4, 100%, 67%);
+}
 body button {
   color: hsl(0, 0%, 100%);
   padding: 1rem;
