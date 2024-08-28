@@ -49,11 +49,6 @@ Users should be able to:
     <p style="padding: 0.5rem; font-weight: bold;">Successful Subscription</p>
   </div>
 
-  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
-    <img src="./screenshot-mobile.png" alt="Screenshot on a mobile look" style="width: 100%; height: auto;" />
-    <p style="padding: 0.5rem; font-weight: bold;">Mobile View</p>
-  </div>
-
 </div>
 
 ### Links
