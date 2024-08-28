@@ -211,4 +211,7 @@ main .text-container form {
     max-width: 31.5rem;
     padding: 3rem 0.75rem 4rem;
   }
+  .success-main-container p {
+    padding-bottom: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

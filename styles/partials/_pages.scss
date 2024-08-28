@@ -177,5 +177,9 @@ main {
   .success-main-container {
     max-width: 31.5rem;
     padding: 3rem 0.75rem 4rem;
+
+    p {
+      padding-bottom: 0;
+    }
   }
 }
