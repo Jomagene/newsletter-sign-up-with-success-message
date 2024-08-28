@@ -19,11 +19,11 @@
   <body>
     <main>
       <figure>
-        <source
-          media="(max-width: 56rem)"
-          srcset="./assets/images/illustration-sign-up-mobile.svg" />
         <img
           src="./assets/images/illustration-sign-up-desktop.svg"
+          alt="Sign up illustration on desktop" />
+        <img
+          src="./assets/images/illustration-sign-up-mobile.svg"
           alt="Sign up illustration on mobile" />
       </figure>
       <div class="text-container">
@@ -36,13 +36,13 @@
             <li>And much more!</li>
           </ul>
         </section>
-        <form id="my-form">
+        <form id="my-form" novalidate>
           <fieldset>
             <label for="myMail"
               ><strong>Email address</strong> <strong id="error"></strong
             ></label>
             <input
-              type="text"
+              type="email"
               name="myMail"
               id="myMail"
               placeholder="email@company.com"

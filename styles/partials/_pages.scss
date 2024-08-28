@@ -102,6 +102,12 @@ main {
 
   figure {
     flex: 50;
+    img:first-child {
+      display: none;
+    }
+    img:last-child {
+      display: block;
+    }
   }
 
   figure img {
@@ -155,6 +161,12 @@ main {
 
     figure {
       min-height: $min-height-figure;
+      img:last-child {
+        display: none;
+      }
+      img:first-child {
+        display: block;
+      }
     }
 
     .text-container {

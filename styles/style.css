@@ -141,6 +141,12 @@ main {
 main figure {
   flex: 50;
 }
+main figure img:first-child {
+  display: none;
+}
+main figure img:last-child {
+  display: block;
+}
 main figure img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -190,6 +196,12 @@ main .text-container form {
   }
   main figure {
     min-height: 37.0625rem;
+  }
+  main figure img:last-child {
+    display: none;
+  }
+  main figure img:first-child {
+    display: block;
   }
   main .text-container {
     margin: auto 3.875rem auto 2.625rem;
