@@ -7,11 +7,10 @@ function validateEmail() {
   console.log(email);
   if (!email) return "Enter a non empty email";
 
-  const isValidEmail = /^\S+@\S+$/g;
+  const isValidEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,24}$/;
   if (!isValidEmail.test(email)) {
     return "Valid Email required";
   }
-
   return "";
 }
 
