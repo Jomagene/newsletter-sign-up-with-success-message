@@ -1,10 +1,10 @@
 const myForm = document.getElementById("my-form");
 let formInput = document.querySelector("input[name='myMail']");
 let errorContainer = document.getElementById("error");
+let email = "";
 
 function validateEmail() {
-  const email = new FormData(myForm).get("myMail");
-  console.log(email);
+  email = new FormData(myForm).get("myMail");
   if (!email) return "Enter a non empty email";
 
   const isValidEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,24}$/;
@@ -22,6 +22,9 @@ function handleFormSubmit(event) {
     formInput.classList.add("fail");
     errorContainer.textContent = errorMessage;
     errorContainer.classList.add("fail");
-  } else location.href = "success.html";
+  } else {
+    localStorage.setItem("userEmail", email);
+    location.href = "success.html";
+  }
 }
 myForm.addEventListener("submit", handleFormSubmit);
