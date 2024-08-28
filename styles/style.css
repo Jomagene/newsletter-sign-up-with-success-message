@@ -144,16 +144,10 @@ main figure {
 main figure img {
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: right;
-     object-position: right;
+  -o-object-position: center;
+     object-position: center;
   height: 100%;
   width: 100%;
-}
-main figure img:first-child {
-  display: none;
-}
-main figure img:last-child {
-  display: block;
 }
 main .text-container {
   margin: 2.5rem 1.5rem;
@@ -196,12 +190,6 @@ main .text-container form {
   }
   main figure {
     min-height: 37.0625rem;
-  }
-  main figure img:first-child {
-    display: block;
-  }
-  main figure img:last-child {
-    display: none;
   }
   main .text-container {
     margin: auto 3.875rem auto 2.625rem;

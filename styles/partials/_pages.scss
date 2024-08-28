@@ -76,6 +76,7 @@ body {
       border-color: $tomato;
     }
   }
+
   button {
     color: $white;
     padding: 1rem;
@@ -102,20 +103,12 @@ main {
   figure {
     flex: 50;
   }
-  figure img {
-    object-fit: cover;
-    object-position: right;
-    height: $max;
-    width: $max;
-  }
 
   figure img {
-    &:first-child {
-      display: none;
-    }
-    &:last-child {
-      display: block;
-    }
+    object-fit: cover;
+    object-position: center;
+    height: $max;
+    width: $max;
   }
 
   .text-container {
@@ -138,6 +131,7 @@ main {
     }
   }
 }
+
 .success-main-container {
   padding-top: 8.5rem;
   p {
@@ -161,12 +155,6 @@ main {
 
     figure {
       min-height: $min-height-figure;
-      img:first-child {
-        display: block;
-      }
-      img:last-child {
-        display: none;
-      }
     }
 
     .text-container {
