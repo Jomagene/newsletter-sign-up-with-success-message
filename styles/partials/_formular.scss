@@ -32,6 +32,8 @@ body {
     font-size: $font-body-small;
     padding-bottom: $margin-8;
     display: block;
+    display: flex;
+    justify-content: space-between;
   }
 
   ul {

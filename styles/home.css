@@ -76,6 +76,8 @@ body label {
   font-size: 0.75rem;
   padding-bottom: 0.5rem;
   display: block;
+  display: flex;
+  justify-content: space-between;
 }
 body ul {
   display: flex;
