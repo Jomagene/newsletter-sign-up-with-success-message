@@ -80,14 +80,14 @@ body ul {
   gap: 0.625rem;
 }
 body ul li {
-  position: relative; /* Ensure relative positioning */
-  padding-left: 38px;
+  position: relative;
+  padding-left: 2.375rem;
 }
 body ul li::before {
   content: "";
   display: inline-block;
-  width: 21px;
-  height: 21px;
+  width: 1.3125rem;
+  height: 1.3125rem;
   background-image: url("../../assets/images/icon-list.svg");
   background-size: cover;
   position: absolute;
@@ -157,7 +157,7 @@ main .text-container form {
 
 @media (min-width: 56rem) {
   body {
-    min-height: 1080px;
+    min-height: 67.5rem;
   }
   body h1 {
     font-size: 3.5rem;
@@ -179,7 +179,7 @@ main .text-container form {
     display: none;
   }
   main .text-container {
-    margin: auto 62px auto 42px;
+    margin: auto 3.875rem auto 2.625rem;
     order: -1;
   }
 }/*# sourceMappingURL=home.css.map */

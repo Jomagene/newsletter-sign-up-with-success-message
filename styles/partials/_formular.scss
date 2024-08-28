@@ -35,34 +35,33 @@ body {
     gap: $gap-10;
   }
   ul li {
-    position: relative; /* Ensure relative positioning */
-    padding-left: 38px;
+    position: relative;
+    padding-left: $margin-38;
   }
   ul li::before {
     content: "";
     display: inline-block;
-    width: 21px;
-    height: 21px;
+    width: 1.3125rem;
+    height: 1.3125rem;
     background-image: url("../../assets/images/icon-list.svg");
     background-size: cover;
     position: absolute;
     left: 0;
-    // margin-right: 1rem;
     vertical-align: middle;
   }
   input {
-    padding: 0.9375rem;
+    padding: $margin-15;
     border: 1px solid $grey-light;
     color: $grey;
     border-radius: 0.5rem;
-    width: 100%;
+    width: $max;
   }
   button {
     color: $white;
     padding: 1rem;
     border-radius: 0.5rem;
     border: none;
-    width: 100%;
+    width: $max;
   }
   button {
     text-align: center;
@@ -73,7 +72,7 @@ body {
 main {
   display: flex;
   background-color: $white;
-  width: 100%;
+  width: $max;
   flex-direction: column;
   border-radius: 0;
 
@@ -83,15 +82,17 @@ main {
   figure img {
     object-fit: cover;
     object-position: right;
-    height: 100%;
-    width: 100%;
+    height: $max;
+    width: $max;
   }
 
-  figure img:first-child {
-    display: none;
-  }
-  figure img:last-child {
-    display: block;
+  figure img {
+    &:first-child {
+      display: none;
+    }
+    &:last-child {
+      display: block;
+    }
   }
 
   .text-container {
@@ -117,7 +118,7 @@ main {
 
 @media (min-width: $desktop-min-width) {
   body {
-    min-height: 1080px;
+    min-height: $min-height-desktop;
 
     h1 {
       @include font-desktop("heading", $font-w-700);
@@ -127,10 +128,10 @@ main {
     max-width: $max-width-desktop;
     flex-direction: row;
     padding: $margin-24;
-    border-radius: 2.25rem;
+    border-radius: $border-r-36;
 
     figure {
-      min-height: 37.0625rem;
+      min-height: $min-height-figure;
       img:first-child {
         display: block;
       }
@@ -140,7 +141,7 @@ main {
     }
 
     .text-container {
-      margin: auto 62px auto 42px;
+      margin: auto $margin-62 auto $margin-42;
       order: -1;
     }
   }
