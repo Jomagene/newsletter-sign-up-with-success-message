@@ -32,10 +32,29 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the Newsletter Sign-Up Form](./screenshot.png)
-![Screenshot of the Newsletter Sign-Up Form with an invalid email](./screenshot-invalid.png)
-![Screenshot of a successfull email subscribe](./screenshot-success.png)
-![Screenshot on a mobile look](./screenshot-mobile.png)
+<div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+
+  <div style="flex: 1 1 200px; max-width: 45%;">
+    <img src="./screenshot.png" alt="Screenshot of the Newsletter Sign-Up Form" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+    <p><strong>Newsletter Sign-Up Form</strong></p>
+  </div>
+
+  <div style="flex: 1 1 200px; max-width: 45%;">
+    <img src="./screenshot-invalid.png" alt="Screenshot of the Newsletter Sign-Up Form with an invalid email" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+    <p><strong style="color: tomato">Invalid Email State</strong></p>
+  </div>
+
+  <div style="flex: 1 1 200px; max-width: 45%;">
+    <img src="./screenshot-success.png" alt="Screenshot of a successful email subscribe" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+    <p><strong style='color: green'>Successful Subscription</strong></p>
+  </div>
+
+  <div style="flex: 1 1 200px; max-width: 45%;">
+    <img src="./screenshot-mobile.png" alt="Screenshot on a mobile look" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+    <p><strong>Mobile View</strong></p>
+  </div>
+
+</div>
 
 ### Links
 
