@@ -56,7 +56,7 @@ body {
     vertical-align: middle;
   }
   input {
-    padding: $margin-15;
+    padding: $margin-15 1rem;
     border: 1px solid $grey-light;
     color: $grey;
     border-radius: 0.5rem;
@@ -68,10 +68,13 @@ body {
     border-radius: 0.5rem;
     border: none;
     width: $max;
-  }
-  button {
     text-align: center;
     background-color: $dark-slate-grey;
+
+    &:hover {
+      background-color: $tomato;
+      cursor: pointer;
+    }
   }
 }
 

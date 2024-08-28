@@ -99,7 +99,7 @@ body ul li::before {
   vertical-align: middle;
 }
 body input {
-  padding: 0.9375rem;
+  padding: 0.9375rem 1rem;
   border: 1px solid hsl(234, 7%, 80%);
   color: hsl(231, 7%, 60%);
   border-radius: 0.5rem;
@@ -111,10 +111,12 @@ body button {
   border-radius: 0.5rem;
   border: none;
   width: 100%;
-}
-body button {
   text-align: center;
   background-color: hsl(234, 29%, 20%);
+}
+body button:hover {
+  background-color: hsl(4, 100%, 67%);
+  cursor: pointer;
 }
 
 main {
