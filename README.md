@@ -6,7 +6,7 @@ This is a solution to the [Newsletter Sign-Up Form with Success Message challeng
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
@@ -30,38 +30,36 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size.
 - See hover and focus states for all interactive elements on the page.
 
-### Screenshot
-
-## Screenshots
+### Screenshots
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
 
-  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./screenshot.png" alt="Screenshot of the Newsletter Sign-Up Form" style="width: 100%; height: auto; display: block;" />
-    <p style="text-align: center; padding: 0.5rem;"><strong>Newsletter Sign-Up Form</strong></p>
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+    <img src="./screenshot.png" alt="Screenshot of the Newsletter Sign-Up Form" style="width: 100%; height: auto;" />
+    <p style="padding: 0.5rem; font-weight: bold;">Newsletter Sign-Up Form</p>
   </div>
 
-  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./screenshot-invalid.png" alt="Screenshot of the Newsletter Sign-Up Form with an invalid email" style="width: 100%; height: auto; display: block;" />
-    <p style="text-align: center; padding: 0.5rem;"><strong>Invalid Email State</strong></p>
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+    <img src="./screenshot-invalid.png" alt="Screenshot of the Newsletter Sign-Up Form with an invalid email" style="width: 100%; height: auto;" />
+    <p style="padding: 0.5rem; font-weight: bold;">Invalid Email State</p>
   </div>
 
-  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./screenshot-success.png" alt="Screenshot of a successful email subscribe" style="width: 100%; height: auto; display: block;" />
-    <p style="text-align: center; padding: 0.5rem;"><strong>Successful Subscription</strong></p>
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+    <img src="./screenshot-success.png" alt="Screenshot of a successful email subscribe" style="width: 100%; height: auto;" />
+    <p style="padding: 0.5rem; font-weight: bold;">Successful Subscription</p>
   </div>
 
-  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./screenshot-mobile.png" alt="Screenshot on a mobile look" style="width: 100%; height: auto; display: block;" />
-    <p style="text-align: center; padding: 0.5rem;"><strong>Mobile View</strong></p>
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+    <img src="./screenshot-mobile.png" alt="Screenshot on a mobile look" style="width: 100%; height: auto;" />
+    <p style="padding: 0.5rem; font-weight: bold;">Mobile View</p>
   </div>
 
 </div>
 
 ### Links
 
-- [Visite the solution](https://your-solution-url.com)
-- [Visit live Url](https://jomagene.github.io/newsletter-sign-up-with-success-message/)
+- [Visit the solution](https://your-solution-url.com)
+- [Visit live URL](https://jomagene.github.io/newsletter-sign-up-with-success-message/)
 
 ## My Process
 
@@ -83,19 +81,13 @@ In the future, I plan to explore how to send emails to users who submit their in
 
 ### Useful Resources
 
-Here's the updated "Useful Resources" section with the FreeCodeCamp article included:
-
----
-
-### Useful Resources
-
 - [FreeCodeCamp - Build and Validate Beautiful Forms with Vanilla HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/build-and-validate-beautiful-forms-with-vanilla-html-css-js/) - This article was instrumental in helping me understand form validation and building user-friendly forms with HTML, CSS, and JavaScript.
 - [MDN Web Docs - Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - Provided a solid foundation for understanding form validation.
 
 ## Author
 
 - Frontend Mentor - [@Jomagene](https://www.frontendmentor.io/profile/Jomagene)
-- Twitter - [@Jomanege](https://www.twitter.com/Jomagene)
+- Twitter - [@Jomagene](https://www.twitter.com/Jomagene)
 
 ## Acknowledgments
 
