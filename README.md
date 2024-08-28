@@ -32,26 +32,28 @@ Users should be able to:
 
 ### Screenshot
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+## Screenshots
 
-  <div style="flex: 1 1 200px; max-width: 45%;">
-    <img src="./screenshot.png" alt="Screenshot of the Newsletter Sign-Up Form" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-    <p><strong>Newsletter Sign-Up Form</strong></p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./screenshot.png" alt="Screenshot of the Newsletter Sign-Up Form" style="width: 100%; height: auto; display: block;" />
+    <p style="text-align: center; padding: 0.5rem;"><strong>Newsletter Sign-Up Form</strong></p>
   </div>
 
-  <div style="flex: 1 1 200px; max-width: 45%;">
-    <img src="./screenshot-invalid.png" alt="Screenshot of the Newsletter Sign-Up Form with an invalid email" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-    <p><strong style="color: tomato">Invalid Email State</strong></p>
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./screenshot-invalid.png" alt="Screenshot of the Newsletter Sign-Up Form with an invalid email" style="width: 100%; height: auto; display: block;" />
+    <p style="text-align: center; padding: 0.5rem;"><strong>Invalid Email State</strong></p>
   </div>
 
-  <div style="flex: 1 1 200px; max-width: 45%;">
-    <img src="./screenshot-success.png" alt="Screenshot of a successful email subscribe" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-    <p><strong style='color: green'>Successful Subscription</strong></p>
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./screenshot-success.png" alt="Screenshot of a successful email subscribe" style="width: 100%; height: auto; display: block;" />
+    <p style="text-align: center; padding: 0.5rem;"><strong>Successful Subscription</strong></p>
   </div>
 
-  <div style="flex: 1 1 200px; max-width: 45%;">
-    <img src="./screenshot-mobile.png" alt="Screenshot on a mobile look" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-    <p><strong>Mobile View</strong></p>
+  <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./screenshot-mobile.png" alt="Screenshot on a mobile look" style="width: 100%; height: auto; display: block;" />
+    <p style="text-align: center; padding: 0.5rem;"><strong>Mobile View</strong></p>
   </div>
 
 </div>
