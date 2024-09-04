@@ -94,7 +94,7 @@ body ul li::before {
   display: inline-block;
   width: 1.3125rem;
   height: 1.3125rem;
-  background-image: url("./../../assets/images/icon-list.svg");
+  background-image: url("../assets/images/icon-list.svg");
   background-size: cover;
   position: absolute;
   left: 0;
